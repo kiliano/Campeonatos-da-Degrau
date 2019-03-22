@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	
-	<title>Título</title>
+	<title>Mario Kart 64</title>
 	
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IT=edge,chrome=IE8">
@@ -73,13 +73,134 @@
 
 	<main class="dg-main" role="main">
 		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h1>Teste</h1>
+
+
+			<div class="jogo">
+				<div class="titulo-principal">Mario Kart 64</div>
+
+				<div class="listagem">
+
+					<!-- Item -->
+					<div class="item" id="65696591">
+						<div class="item-titulo">
+							<span>Campeonato Teste</span>
+
+							<div class="item-status">
+								ativo
+							</div>
+						</div>
+
+						<div class="item-participantes">
+							<ul class="pontos">
+								<li>Kiliano - <span class="pontos-Kiliano"></span></li>
+							    <li>Roger - <span class="pontos-Roger"></span></li>
+							    <li>Murilo - <span class="pontos-Murilo"></span></li>
+							    <li>Rafael - <span class="pontos-Rafael"></span></li>
+							    <li>Tony - <span class="pontos-Tony"></span></li>
+							    <li>Outro - <span class="pontos-Outro"></span></li>
+								
+							</ul>
+							<!-- <li> Kiliano - 984 <span>[5] [5] [3] [2]</span> </li> -->
+
+						</div>
+
+						<div class="item-ver">
+							<!-- <a href="javascript:void(0)" class="btn btn-outline-secondary btn-sm">Ver Campeonato</a> -->
+
+						</div>
+
+						<div class="item-adicionar">
+							<div class="row">
+								<div class="col">
+									<label for="primeirolugar">1º</label>
+								    <select class="form-control" id="primeirolugar">
+								      <option value="">vazio</option>
+								      <option value="Kiliano">Kiliano</option>
+								      <option value="Roger">Roger</option>
+								      <option value="Murilo">Murilo</option>
+								      <option value="Rafael">Rafael</option>
+								      <option value="Tony">Tony</option>
+								      <option value="Outro">Outro</option>
+								    </select>
+								</div>
+
+								<div class="col">
+									<label for="segundolugar">2º</label>
+								    <select class="form-control" id="segundolugar">
+								      <option value="">vazio</option>
+								      <option value="Kiliano">Kiliano</option>
+								      <option value="Roger">Roger</option>
+								      <option value="Murilo">Murilo</option>
+								      <option value="Rafael">Rafael</option>
+								      <option value="Tony">Tony</option>
+								      <option value="Outro">Outro</option>
+								    </select>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col">
+									<label for="terceirolugar">3º</label>
+								    <select class="form-control" id="terceirolugar">
+								      <option value="">vazio</option>
+								      <option value="Kiliano">Kiliano</option>
+								      <option value="Roger">Roger</option>
+								      <option value="Murilo">Murilo</option>
+								      <option value="Rafael">Rafael</option>
+								      <option value="Tony">Tony</option>
+								      <option value="Outro">Outro</option>
+								    </select>
+								</div>
+
+								<div class="col">
+									<label for="quartolugar">4º</label>
+								    <select class="form-control" id="quartolugar">
+								      <option value="">vazio</option>
+								      <option value="Kiliano">Kiliano</option>
+								      <option value="Roger">Roger</option>
+								      <option value="Murilo">Murilo</option>
+								      <option value="Rafael">Rafael</option>
+								      <option value="Tony">Tony</option>
+								      <option value="Outro">Outro</option>
+								    </select>
+								</div>
+							</div>
+							<br><br>
+							<a href="javascript:void(0)" class="btn btn-primary btn-sm" onclick="inserirMK64()">Inserir Corrida</a>
+						</div>
+
+						<ul class="item-listagem jsListagem">
+							
+						</ul>
+						<!-- <li class="item-listagem-item"> <span>1º <strong>Kiliano</strong></span> <span>2º <strong>Roger</strong></span> <span>3º <strong>Murilo</strong></span> <span>4º <strong>Rafael</strong></span> <a href="javascript:void(0)" class="btn btn-outline-secondary btn-sm">x</a></li> -->
+
+						<div class="item-apagar">
+
+							<div class="row">
+								<div class="col">
+									<a href="javascript:void(0)" id="apagarUltimo" class="btn btn-secondary" onclick="apagarUltimoMK64()">Apagar Último</a>
+
+								</div>
+
+								<div class="col">
+									<a href="javascript:void(0)" id="zerar" class="btn btn-outline-secondary btn-sm" onclick="zerarMK64()">Zerar</a>
+
+								</div>
+							</div>
+						</div>
+
+
+						
+					</div>
+					<!-- Item -->
+					
+					
 				</div>
 			</div>
 		</div>
 	</main>
+
+
 
 	<footer class="dg-footer" role="contentinfo"></footer>
 
